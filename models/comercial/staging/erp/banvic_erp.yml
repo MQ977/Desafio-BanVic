@@ -1,0 +1,16 @@
+version: 2
+
+sources:
+  - name: desafio_banvic
+    description: "Essa é a fonte do sistema ERP."
+    database: banvic-448617
+    schema: banvic
+    tables:
+      - name: agencias
+      - name: clientes
+      - name: colaborador_agencia
+      - name: colaboradores
+      - name: contas
+      - name: propostas_credito
+      - name: transacoes
+      
